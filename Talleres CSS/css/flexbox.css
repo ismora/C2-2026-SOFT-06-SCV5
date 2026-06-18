@@ -18,7 +18,7 @@ selector{
     /* flex-direction: row;  Cambiar el eje principal, por defecto row */
     
     /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe; */
-    justify-content: space-around; 
+    justify-content: space-around; /* Eje horizontal */
 
 }
 

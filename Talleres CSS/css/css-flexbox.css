@@ -1,0 +1,64 @@
+:root {
+    --blanco: rgba(255, 255, 255, 0.915);
+    --negro: #1e2a3e;
+    --borde-radius: 20px
+}
+
+
+* {
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+    background-color: #f5f7fc;
+}
+
+.navbar {
+    background-color: var(--negro);
+    color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    /* 0px arriba y abajo y 20px izquierda y derecha*/
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    /* Espacio entre elementos: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#gap-row-gap-column-gap */
+    list-style: none;
+}
+
+.nav-links li a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.user-icon {
+    font-size: 20px;
+    color: var(--blanco);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.profile-card {
+    background: var(--blanco);
+    border-radius: var(--borde-radius);
+    max-width: 450px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
